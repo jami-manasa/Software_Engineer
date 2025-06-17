@@ -1,0 +1,22 @@
+# Ignore Python virtual environments
+venv/
+wsl-venv/
+
+# Ignore environment variable files
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode settings (optional)
+.vscode/
+
+# Docker files or volumes (optional)
+*.log
+*.pid
+
+# Ignore system files
+.DS_Store
+Thumbs.db
